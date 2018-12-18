@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <link rel="stylesheet" href="css/css3.css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <!-- TWEENMAX HIỆU ỨNG CHUYỂN ĐỘNG KHI LOAD -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+<!--     font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <script src="js/3.js" async></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--     link slick slide -->
+  </head>
+  <body>
+     <div id="total">
+       <div id="header">
+        <div class="header_left">
+          <img src="image/1.jpg" alt="">
+        </div>
+        <div class="header_right">
+          <div class="icon">
+            <ul>
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fas fa-phone"></i></a></li>
+            </ul>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="Search" id="one">
+            <a href=""><i class="fas fa-search"></i></a>
+          </div>
+          <div class="choose">
+            <a href=""><i class="fas fa-shopping-cart"></i></a>
+            <a href=""><span>2</span></a>
+            
+          </div>
+        </div>
+
+       </div>
+       <div id="nav">
+        <div class="content_nav" style="width: 90%; margin: auto;">
+          <div class="oknuon" onclick="menu_show()">
+            <ul class="line" >
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+            <div class="menu" >
+              <ul class="one">
+                <li class="active"><a href="">Trang chủ</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li class="li_one" style="position: relative;">
+                  <a href="">Sản phẩm</a>
+                  <div>
+                  <ul class="two">
+                    <li><a href="">Dưỡng da</a></li>
+                    <li class="makeup">
+                      <a href="">Make up</a>
+                      <ul class="three">
+                        <li><a href="">Kem nền</a></li>
+                        <li><a href="">Phấn</a></li>
+                        <li><a href="">Son</a></li>
+                        <li><a href="">Len</a></li>
+                        <li><a href="">SP hỗ trợ</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="">Dụng cụ</a></li>
+                    <li><a href="">Quần áo</a></li>
+                    <li><a href="">Túi xách</a></li>
+                    <li><a href="">Giày</a></li>
+                    <li><a href="">Phụ kiện</a></li>
+                    <li><a href="">Đồ Set</a></li>
+                    <li><a href="">Sản phẩm khác</a></li>
+                  </ul>
+                  </div>
+                </li>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Liên hệ</a></li>
+              </ul>
+            </div><!--  end menu -->
+
+            <div class="login">
+              <span id="dangnhap">Đăng Nhập</span>
+              <form action="" method="post" id="login">
+                <div class="user">
+                  <i class="fas fa-user"></i><span>|</span>
+                  <input type="text" name="user_name" id="user_name">
+                </div>
+                <div class="pass">
+                  <i class="fas fa-key"></i><span>|</span>
+                  <input type="password" name="user_pass" id="user_pass">
+                </div>
+                <input type="submit" name="submit" value="Login">
+              </form>
+            </div>
+          </div> <!-- end content_nav -->
+       </div>
+       <div id="slide">
+        <div class="background">
+          <img src="image/13.png" alt="">
+        </div>
+        <div class="box_slide fade">
+          <div class="banner">
+            <div class="title">GIẢM GIÁ 50% <br> TẤT CẢ TÚI SÁCH</div>
+            <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+            <a href="" id="detail">CHI TIẾT</a>
+          </div>
+         <div class="image">
+           <img src="image/2.png" alt="">
+           <img src="image/3.png" alt="">
+           <img src="image/4.png" alt="">
+         </div> 
+        </div><!--  end box_slide -->
+
+         <div class="box_slide fade" style="background-color: red">
+          <div class="banner">
+            <div class="title">GIẢM GIÁ 50% <br> TẤT CẢ TÚI SÁCH</div>
+            <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+            <a href="" id="detail">CHI TIẾT</a>
+          </div>
+         <div class="image">
+           <img src="image/2.png" alt="">
+           <img src="image/3.png" alt="">
+           <img src="image/4.png" alt="">
+         </div> 
+        </div><!--  end box_slide -->
+
+         <div class="box_slide fade" style="background: blue">
+          <div class="banner">
+            <div class="title">GIẢM GIÁ 50% <br> TẤT CẢ TÚI SÁCH</div>
+            <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+            <a href="" id="detail">CHI TIẾT</a>
+          </div>
+         <div class="image">
+           <img src="image/2.png" alt="">
+           <img src="image/3.png" alt="">
+           <img src="image/4.png" alt="">
+         </div> 
+        </div><!--  end box_slide -->
+        <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+         <div class="next" onclick="plusSlides(1)">&#10095;</div>
+         
+       </div>
+       <div id="content">
+            <div id="promotion">
+              <a href=""><p>Khuyến mãi</p></a>
+                  <hr>
+                  <div class="slide_circle slider">
+                    <div class="circle">
+                      <img src="image/6.jpg" alt="">
+                    </div>
+                    <div class="circle">
+                      <img src="image/7.jpg" alt="">
+                    </div>
+                    <div class="circle">
+                      <img src="image/5.jpg" alt="">
+                    </div>
+                    <div class="circle">
+                      <img src="image/8.jpg" alt="">
+                    </div>
+                    <div class="circle">
+                      <img src="image/9.jpg" alt="">
+                    </div>
+                    <div class="circle">
+                      <img src="image/6.jpg" alt="">
+                    </div>
+                    <div class="circle">
+                      <img src="image/7.jpg" alt="">
+                    </div>
+                    <div class="circle">
+                      <img src="image/5.jpg" alt="">
+                    </div>
+                    <div class="circle">
+                      <img src="image/8.jpg" alt="">
+                    </div>
+                    <div class="circle">
+                      <img src="image/9.jpg" alt="">
+                    </div>
+                  </div>
+                 <div class="more"><a href="">Xem thêm</a></div>
+            </div> <!-- end promotion -->
+            <div id="newproduct">
+              <a href=""><p>SẢN PHẨM MỚI</p></a>    
+              <hr>
+              <div class="list_item">
+
+                 <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/2.png" alt="">
+                  </div>
+                 <a href=""><h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3></a> 
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                 <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/3.png" alt="">
+                  </div>
+                 <a href=""><h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3></a> 
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                  <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/4.png" alt="">
+                  </div>
+                 <a href=""><h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3></a> 
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                  <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/5.jpg" alt="">
+                  </div>
+                 <a href=""><h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3></a> 
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                  <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/6.jpg" alt="">
+                  </div>
+                 <a href=""><h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3></a> 
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                  <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/7.jpg" alt="">
+                  </div>
+                 <a href=""><h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3></a> 
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                  <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/8.jpg" alt="">
+                  </div>
+                 <a href=""><h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3></a> 
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                  <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/9.jpg" alt="">
+                  </div>
+                 <a href=""><h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3></a> 
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+                 
+              </div> <!-- end list_item -->
+            </div>
+            <div id="advertise">
+              <div class="advertise_background">
+                <img src="image/14.png" alt="">
+              </div>
+              <h3 class="slogan">đăng ký thành viên để  có  thể nhận những ưu đãi vô cùng <strong>hấp dẫn</strong> </h3>
+              <a href="" class="register">Đăng ký</a>
+            </div>
+            <div id="hotproduct">
+               <a href=""><p>BÁN CHẠY</p></a>
+              <hr>
+
+                <div class="list_item">
+
+                 <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/2.png" alt="">
+                  </div>
+                  <h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3>
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                 <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/3.png" alt="">
+                  </div>
+                  <h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3>
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                 <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/4.png" alt="">
+                  </div>
+                  <h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3>
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                 <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/6.jpg" alt="">
+                  </div>
+                  <h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3>
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                 <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/7.jpg" alt="">
+                  </div>
+                  <h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3>
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                 <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/8.jpg" alt="">
+                  </div>
+                  <h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3>
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                 <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/9.jpg" alt="">
+                  </div>
+                  <h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3>
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+
+                 <div class="box_item">
+                  <div class="new">New</div>
+                  <div id="image_item">
+                    <img src="image/10.jpg" alt="">
+                  </div>
+                  <h3 class="name">TÚI XÁCH TRẮNG TRẺ TRUNG</h3>
+                  <div class="price">
+                    <span class="origin_price">2000</span>
+                    <span class="current_price">1000</span>
+                  </div>
+                  <div class="buy">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+                </div> <!-- end box_item -->
+                 
+              </div> <!-- end list_item -->
+
+            </div>
+            <div id="brand">
+              <img src="image/11.jpg" alt="">
+            </div>
+            <div id="footer">
+              <div class="footer_content">
+            <ul class="category">
+              <li class="titile_footer_content">DANH MỤC</li>
+              <li><a href="">Chăm sóc da</a></li>
+              <li><a href="">Dụng cụ</a></li>
+              <li><a href="">Quần áo</a></li>
+              <li><a href="">Túi sách</a></li>
+              <li><a href="">Giày dép</a></li>
+            </ul>
+            <ul class="info">
+              <li class="titile_footer_content">THÔNG TIN</li>
+              <li><a href="">Tài khoản</a></li>
+              <li><a href=""> Hướng dẫn mua hàng</a></li>
+              <li><a href=""> Chính sách ưu đãi</a></li>
+              <li><a href=""> Cách thức vẫn chuyển</a></li>
+              <li><a href=""> Hướng dẫn giao nhận</a></li>
+            </ul>
+            <ul class="article">
+              <li class="titile_footer_content"> BÀI VIẾT</li>
+              <li><a href=""> Phù thủy trang điểm ra mắt mỹ phẩm tên thuần việt</a></li>
+              <li><a href=""> Nữ hoàng Youtobe gốc Việt ra mắt mỹ phẩm riêng</a></li>
+              <li><a href="">Nữ hoàng Youtobe gốc Việt ra mắt mỹ phẩm riêng</a></li>
+              
+            </ul>
+            <ul class="contact">
+              <li class="titile_footer_content"> LIÊN HỆ</li>
+              <li><a href="">Đông Hà-Đông Hưng-Thái Bình</a></li>
+              <li><a href="" class="phone">Tel 0-123-3434-3434</a></li>
+              <li>
+                <ul>
+                  <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fas fa-phone"></i></a></li>
+                </ul>
+            </li>
+              <li><a href="">© 2013 Powered by Kellyyangshop</a></li> 
+            </ul>
+             <div class="back_to_top"><i class="fas fa-arrow-alt-circle-up"></i></div>
+            </div><!--  end footer_content -->
+           
+            </div> <!-- end footer -->
+       </div>
+     </div>
+    
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+       $(".slide_circle").slick({
+        // infinite: true,
+        // centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+          responsive:[
+    {
+      breakpoint: 1120,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+       
+      }
+    },
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 650,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 400,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+      });
+     
+
+    });
+</script>
+  </body>
+</html>
